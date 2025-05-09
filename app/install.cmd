@@ -1,0 +1,22 @@
+bin/magento setup:install \
+--base-url=http://m248.local \
+--db-host=localhost \
+--db-name=m248 \
+--db-user=admin \
+--db-password=admin \
+--admin-firstname=admin \
+--admin-lastname=admin \
+--admin-email=admin@admin.com \
+--admin-user=admin \
+--admin-password=admin123 \
+--language=en_US \
+--currency=USD \
+--timezone=America/Chicago \
+--use-rewrites=1 \
+--search-engine=opensearch \
+--opensearch-host=localhost \
+--opensearch-port=9200 \
+--opensearch-index-prefix=magento2 \
+--opensearch-timeout=15 \
+--opensearch-username=admin \
+--opensearch-password=A_dmin123!
